@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+p1 {
+    color: chocolate;
+}
+
+#cssprop {
+    width: 30%;
+    display: inline-block;
+    overflow: auto;
+    margin: auto;
+    background-color: cornflowerblue;
+}
+
+pre {
+    display: block;
+    font-family: sans-serif;
+    white-space: pre;
+    margin: 1em 0;
+}

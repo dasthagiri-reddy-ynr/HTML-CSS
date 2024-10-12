@@ -1,0 +1,26 @@
+<html> 
+<head> <title>React Barebones</title> 
+ <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+  <style> 
+    .greeting { 
+      color: rgba(7, 7, 8, 1.313); 
+    } 
+</style> 
+</head> 
+<body> 
+  <div id="app"></div> 
+  <script type="text/babel"> 
+    const domContainer = document.querySelector('#app') 
+    const root = ReactDOM.createRoot(domContainer) 
+    const component = ( 
+      <h1 className="greeting"> 
+        Hello, world! 
+      </h1> 
+    ); 
+   // Render component at root 
+    root.render(component) 
+  </script> 
+</body> 
+</html> 

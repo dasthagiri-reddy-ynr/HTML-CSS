@@ -1,0 +1,20 @@
+<html></html>
+    <head>
+        <title>Giri ReactJS</title>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            //Select DOM element to render on
+            const domContainer = document.querySelector('#app')
+            // Create root on selected DOM element
+            const root = ReactDOM.createRoot(domContainer)
+            // Create component
+            const component = React.createElement('div', { className: 'greeting' }, 'Hello World!')
+            // Render component at root
+            root.render(component)
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+h1,h3{
+    text-align: center;
+}
+img{
+    padding-top: 4%;
+    display:block;
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+}
+div{
+    background-color:rgba(65, 82, 67, 0.918);
+    color: white;
+    display: block;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+}
+footer{
+    text-align: center;
+}
+#y2y{
+    text-align: center;
+}
+p{
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
